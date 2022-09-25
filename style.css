@@ -62,14 +62,14 @@ h1{
 }
 
 #menu a{
-	padding: 53px 20px;
+	padding: 74px 28px;
 	text-decoration: none;
-	color:#111;
+	color:#FFF;
 	text-shadow: 1px 1px #111111;
 }
 
 #menu a:hover{
-	background-color:#66CDAA;
+	background-color:#668fcd;
 	color:#111;
 }
 
