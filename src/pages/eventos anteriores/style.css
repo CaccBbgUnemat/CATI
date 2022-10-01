@@ -128,6 +128,19 @@
         text-shadow: 1px 1px black;
         white-space: nowrap;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 5em;
+    }
     
 
 }
@@ -219,6 +232,19 @@
         text-shadow: 1px 1px black;
         white-space: nowrap;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 10em;
+    }
 }
 
 *{
@@ -296,13 +322,3 @@ body{
 
 
 
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-    color: white;
-}

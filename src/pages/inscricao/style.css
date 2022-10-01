@@ -91,6 +91,19 @@
         margin-left: 2rem;
 
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 5em;
+    }
     
 }
 @media (min-width: 1281px){
@@ -145,6 +158,19 @@
     .navbar-ul  a{
         color:  white;
         text-decoration: none;
+    }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 10em;
     }
 }
 
@@ -252,23 +278,4 @@ body{
     align-items: center;
     justify-content: center;
 
-}
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-    color: white;
 }

@@ -183,6 +183,19 @@
         color: white;
         margin-left: 0em;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 5em;
+    }
     
 
 }
@@ -325,6 +338,19 @@
         color: white;
         margin-left: 0em;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 10em;
+    }
 }
 
 *{
@@ -363,13 +389,3 @@ body{
 }
 
 
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-    color: white;
-}

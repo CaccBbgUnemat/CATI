@@ -127,8 +127,19 @@
         text-shadow: 1px 1px black;
         white-space: nowrap;
     }
-    
-
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 5em;
+    }
 }
 @media (min-width: 1281px){
     .navbar-ul a {
@@ -218,6 +229,19 @@
         text-shadow: 1px 1px black;
         white-space: nowrap;
     }
+    footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        height: 10em;
+    }
 
 }
 
@@ -285,25 +309,4 @@ body{
     border-radius: 50px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p {
-    color: white;
 }
