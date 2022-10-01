@@ -277,7 +277,7 @@
         justify-content: end;
         list-style: none;
         height: 120px;
-        right: 0px;
+        margin-right: 2em;
 
     }
     .navbar-ul li {
