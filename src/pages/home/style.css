@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/* media queries */
+@media (max-width: 280px){
+    .navbar-img{
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .menu-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+
+    }
+    .nav-dupla{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        height: 0px;
+        width: 0px;
+
+    }
+
+}
+
+@media (max-width: 1280px){ /*galaxy fold */
+    .navbar-ul{
+        visibility: hidden;
+    }
+
+    .menu-mobile {
+        padding-right: 3em;
+    }
+    .navbar-mobile{
+        display: flex;
+        align-items: center;
+        height: 120px;
+        position: static;
+        justify-content: center;
+    
+        flex: 1;
+    }
+    .menu-mobile  div{
+        width: 2.5em;
+        height: 0.4em;
+        background: white;
+        border-radius: 10px;
+        margin-bottom:0.4em;
+        cursor: pointer;
+        
+    }
+    .menu-mobile{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    #menu-mobile-itens{
+        height: 0vh;
+        width: 100vw;
+        background-color: rgba(5, 13, 16, 0.9);
+        visibility: hidden;
+    
+    
+    }
+    .menu-mobile-itens-ul{
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin-top: 1.5em;
+    
+    }
+    .menu-mobile-itens-ul li{
+        margin-top: 1em;
+    }
+    .menu-mobile-itens-ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: larger;
+    }
+    .navbar-img{
+        height: 120px;
+        margin-left: 2rem;
+
+    }
+    .principal h1 {
+        color: white;
+        margin-bottom: .7em;
+        color:#FF7F50;
+        text-shadow: 1px 1px 1px #111111;
+        font-size: x-large;
+    }
+    .principal p{
+        margin: 0px 2em;
+        color:white;
+        font-size: small;
+        font-family: arial;
+        text-align: justify;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: unset;
+    }
+    .principal a{
+        margin-top: 1.2em;
+        padding: .5em;
+        background-color: rgba(255, 127, 80, 0.7);
+        border-radius: 10px;
+        width: 50vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .principal a p {
+        color: white;
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px black;
+        white-space: nowrap;
+    }
+    
+
+}
+@media (min-width: 1281px){
+    .navbar-ul a {
+        font-size: medium;
+    }
+
+    .navbar-mobile{
+        visibility: hidden;
+        width: 0px;
+    }
+    #menu-mobile-itens{
+        visibility: hidden;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        flex: 1;
+        width: 100vw;
+
+    
+    }
+    .navbar a{
+        padding: 0.8em;
+    }
+    .navbar a:hover{
+        background: #668fcd;
+        padding: 0.8em;
+        border-radius: 10px;
+    }
+    .navbar-img{
+        height: 120px;
+        margin-left: 2rem;
+
+    }
+    .navbar-ul {
+        white-space: nowrap;
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: end;
+        list-style: none;
+        height: 120px;
+        right: 0px;
+
+    }
+    .navbar-ul li {
+        margin-left: 0;
+    }
+    .navbar-ul  a{
+        color:  white;
+        text-decoration: none;
+    }
+    .principal h1 {
+        color: white;
+        margin-bottom: .7em;
+        color:#FF7F50;
+        text-shadow: 1px 1px 1px #111111;
+    }
+    .principal p{
+        margin: 0px 4em;
+        color:white;
+        font-size: large;
+        font-family: arial;
+        text-align: justify;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: unset;
+    }
+    .principal a{
+        margin-top: 1.2em;
+        padding: .5em;
+        background-color: rgba(255, 127, 80, 0.7);
+        border-radius: 10px;
+        width: 50vw;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .principal a p {
+        color: white;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px black;
+        white-space: nowrap;
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, arial;
+
+
+}
+body{
+
+    background-color: black;
+    background-image: url("../../assets/Seguranca.png");
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-size: contain;
+}
+.nav-dupla{
+    display: flex;
+    flex-direction: row;
+    height: 8em;
+    width: 100vw;
+    justify-content: space-evenly;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    border: solid white;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    top: 0;
+
+}
+#corpo{
+    background: transparent;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    margin-top: -2em;
+}
+
+
+
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(5, 13, 16, 0.180); */
+    background-color: rgba(18, 21, 20, .46);
+    padding: 2em 0px;
+    width: 80vw;
+    height: 50vh;
+    overflow: hidden;
+
+    border-radius: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: white;
+}
