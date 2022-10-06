@@ -91,6 +91,28 @@
         margin-left: 2rem;
 
     }
+    #corpo{
+        background: transparent;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        margin-top: 100px;
+    }
+    .principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgba(5, 13, 16, 0.180); */
+        /* background-color: rgba(18, 21, 20, .46); */
+        border-radius: 50px;
+        /* border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5); */
+    }
     .principal h1 {
         color: white;
         margin-bottom: .7em;
@@ -111,21 +133,28 @@
     .principal a{
         margin-top: 1.2em;
         padding: .5em;
-        background-color: rgba(255, 127, 80, 0.7);
+        /* background-color: rgba(255, 127, 80, 0.7); */
         border-radius: 10px;
-        width: 50vw;
+        width: 100%;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
+        width: 50vw;
+        background-color: rgb(0, 255, 255, .4);
+        position: relative;
+
     }
     .principal a p {
         color: white;
-        font-size: small;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
-        text-shadow: 1px 1px black;
         white-space: nowrap;
+    }
+    .principal img {
+        border-radius: 10px;
+        height: 45vh;
     }
     footer{
         background-color: black;
@@ -194,6 +223,33 @@
         color:  white;
         text-decoration: none;
     }
+    #corpo{
+        background: transparent;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+
+        margin-top: -4em;
+    }
+    .principal{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 100vh;
+        width: 90vw;
+        /* background-color: rgba(5, 13, 16, 0.180); */
+        /* background-color: rgba(18, 21, 20, .46); */
+        border-radius: 50px;
+        /* border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5); */
+        background: transparent;
+    }
     .principal h1 {
         color: white;
         margin-bottom: .7em;
@@ -213,22 +269,33 @@
     .principal a{
         margin-top: 1.2em;
         padding: .5em;
-        background-color: rgba(255, 127, 80, 0.7);
+        /* background-color: rgba(255, 127, 80, 0.7); */
         border-radius: 10px;
-        width: 50vw;
+        width: 100%;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
         text-decoration: none;
+        width: 50vw;
+        background-color: rgb(0, 255, 255, .4);
+        position: relative;
+
     }
     .principal a p {
         color: white;
-        font-size: large;
+        font-size: x-large;
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 1px 1px black;
         white-space: nowrap;
     }
+    .principal img {
+        margin-top: 10vh;
+        height: 60vh;
+        border-radius: 20px;
+
+    }
+
     footer{
         background-color: black;
         display: flex;
@@ -279,34 +346,8 @@ body{
     top: 0;
 
 }
-#corpo{
-    background: transparent;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
-    margin-top: -2em;
-}
 
 
 
 
-.principal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-color: rgba(5, 13, 16, 0.180); */
-    background-color: rgba(18, 21, 20, .46);
-    padding: 2em 0px;
-    width: 80vw;
-    height: 50vh;
-    overflow: hidden;
 
-    border-radius: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-}
