@@ -159,15 +159,17 @@
     .cacc-integrantes {
     
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         color: black;
         align-items: center;
     
     }
     .cacc-integrantes img{
     
+        margin-left: 1em;
         height: 100px;
         border-radius: 100%;
+        align-items: center;
     
     }
     
@@ -176,12 +178,11 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        align-items: center;
         
     }
     .cacc-integrantes-dados p {
         color: white;
-        margin-left: 4em;
+        margin-left: 0em;
     }
     footer{
         background-color: black;
