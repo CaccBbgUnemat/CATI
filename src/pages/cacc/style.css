@@ -314,7 +314,7 @@
     .cacc-integrantes {
     
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         color: black;
     
