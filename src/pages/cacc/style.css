@@ -300,6 +300,13 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: unset;
+        flex-direction: row;
+    
+    }
+
+    .rowcacc{
+        display: flex;
+        flex-direction: row;
     }
     
     
@@ -307,10 +314,23 @@
     
         display: flex;
         white-space: nowrap;
-        width: 50%;
-        align-items: center;
+        width: 100%;
+        align-items: flex-start;
         justify-content: space-between;
         margin-bottom: .5em;
+        flex-direction: column;
+    
+    }
+
+    .cacc2{
+    
+        display: flex;
+        white-space: nowrap;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-bottom: .5em;
+        flex-direction: column;
     
     }
     .cacc-integrantes {
