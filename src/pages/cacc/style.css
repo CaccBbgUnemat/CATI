@@ -176,7 +176,6 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-    
         
     }
     .cacc-integrantes-dados p {
@@ -306,7 +305,7 @@
     
         display: flex;
         white-space: nowrap;
-        width: 100%;
+        width: 50%;
         align-items: center;
         justify-content: space-between;
         margin-bottom: .5em;
@@ -316,6 +315,7 @@
     
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         color: black;
     
     }
