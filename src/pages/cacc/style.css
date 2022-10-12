@@ -159,7 +159,7 @@
     .cacc-integrantes {
     
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         color: black;
     
     }
